@@ -31,7 +31,6 @@ for d in b:
     t2.add(d['id'])
     set_list2.add(tuple(items))
 
-
 set_difference = set_list2.difference(set_list1)
 
 # Converting the difference from tuple() ti dict()
